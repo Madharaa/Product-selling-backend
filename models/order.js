@@ -31,6 +31,10 @@ const orderSchema = mongoose.Schema({
         type: Number,
         required: true
     },
+    labelledTotal:{
+        type: Number,
+        required: true
+    },
     products:[
         {
             productInfo: {
@@ -52,7 +56,7 @@ const orderSchema = mongoose.Schema({
                 images: [{
                     type: String
                 }],
-                labelledPrice: {
+                labeledPrice: {
                     type: Number,
                     required: true
                 },
@@ -73,3 +77,6 @@ const orderSchema = mongoose.Schema({
     }
 
 })
+
+const Order = mongoose.model("orders", orderSchema)
+export default Order;
