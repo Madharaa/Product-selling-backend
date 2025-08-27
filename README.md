@@ -25,6 +25,7 @@ A **backend API** for managing products, users, and orders with **secure authent
 
 ## 🚀 Getting Started
 
+```bash
 # Clone the repository
 git clone https://github.com/your-username/product-selling-backend.git
 cd product-selling-backend
@@ -34,6 +35,7 @@ npm install
 
 # Start the server
 npm start
+```
 
 API will run on `http://localhost:3000` by default. Configure your **MongoDB connection** in `.env` file.
 
@@ -42,3 +44,5 @@ API will run on `http://localhost:3000` by default. Configure your **MongoDB con
 ## 📜 API Documentation
 
 Test endpoints and workflows using **Postman**. Include all necessary request headers and body formats for authentication and resource management.
+
+---
